@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qf.viewpagertest01.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewpager"
+        android:layout_height="200dp"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+
+        android:background="#44c9c8c8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/dot_layou"
+        android:layout_alignBottom="@id/viewpager"
+        android:layout_height="36dp"></LinearLayout>
+</RelativeLayout>
